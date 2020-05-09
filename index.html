@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>JSON Generator by Drakonkinst</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+    <div class="header-content">
+      <h1>JSON Generator</h1>
+      <h2>by Drakonkinst</h2>
+    </div>
+    <div class="output-content">
+      
+      <textarea class="output-text" spellcheck='false'></textarea>
+      <div class="output-controls">
+        <button class="output-control copy-output" onclick="copyOutput()">Copy to Clipboard</button>
+        <button class="output-control download-output" onclick="downloadOutput()">Download JSON</button>
+        <button class="output-control clear-input" onclick="resetInput()">Clear Input</button>
+        <span class="output-control"><input type="checkbox" class="toggle-minify" onclick="toggleMinify(this)">Minify</input></span>
+      </div>
+    </div>
+    <div class="input-header"></div>
+    <div class="input-content"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/lib/jquery-3.4.1.min.js"><\/script>')</script>
+    <script src="js/modules.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>

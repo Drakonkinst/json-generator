@@ -1,0 +1,126 @@
+table {
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+}
+
+th, td {
+    min-width: 75px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+td input, .checkbox-input {
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+textarea {
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+textarea,
+pre {
+    -moz-tab-size : 4;
+    -o-tab-size : 4;
+    tab-size : 4;
+}
+
+fieldset {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    border: none;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: 700;
+    display: block;
+}
+
+body {
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.header-content {
+    margin-bottom: 30px;
+}
+
+.output-content {
+    margin-bottom: 30px;
+}
+
+.output-text {
+    min-width: 800px;
+    min-height: 250px;
+}
+
+.output-control {
+    margin-right: 10px;
+}
+
+.input-content {
+    border: 1px solid #aaa;
+    display: inline-block;
+}
+
+.input-block {
+    margin-bottom: 7px;
+}
+
+.input-label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 2px;
+}
+
+.text-input {
+    width: 100px;
+}
+
+.array-input {
+    width: 190px;
+}
+
+.dropdown-input {
+    width: 150px;
+}
+
+.number-input {
+    width: 50px;
+}
+
+.input-block .checkbox-input {
+    margin-left: 3px;
+}
+
+.cbt-cell {
+    cursor: pointer;
+}
+
+.description-component {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.description-sub-input {
+    position: relative;
+}
+
+.description-delete-component {
+    margin-left: 175px;
+}
