@@ -239,7 +239,11 @@ var Modules = {
                 var numElems = 0;
                 for(var i = 0; i < array.length; i++) {
                     if(array[i] && array[i].Text) {
-                        output += "\t\t" + formatJsonToString(JSONTextComponent.Schema(), array[i], 2) + "\n";
+                        output += "\t\t" + formatJsonToString(JSONTextComponent.Schema(), array[i], 2);
+                        if(i != array.length - 1) {
+                            output += ",";
+                        }
+                        output += "\n";
                         numElems++;
                     }
                 }
